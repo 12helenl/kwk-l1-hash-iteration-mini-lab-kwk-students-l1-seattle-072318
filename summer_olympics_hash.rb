@@ -8,7 +8,7 @@
     :london => "2012"
   }
 
-create_olympics_hash
+puts create_olympics_hash
 
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
   
