@@ -16,10 +16,7 @@
 
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-  
-  place = 0
-  year = 0
-  
+
   create_olympics_hash.each do |place, year|
     puts "The #{year} summer olympics took place in #{place}."
 end
