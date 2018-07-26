@@ -1,7 +1,7 @@
 
   # Implement this method so that it returns a hash with the data provided on README.md
  
-  olympics_hash = {
+  create_olympics_hash = {
     :sydney => "2000",
     :athens => "2004",
     :beijing => "2008",
@@ -10,7 +10,7 @@
 
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
   
-  olympics_hash[:atlanta] = "1996"
+  create_olympics_hash[:atlanta] = "1996"
   
   puts olympics_hash
 
@@ -20,7 +20,7 @@
   place = 0
   year = 0
   
-  olympics_hash.each do |place, year|
+  create_olympics_hash.each do |place, year|
     puts "The #{year} summer olympics took place in #{place}."
 end
 
